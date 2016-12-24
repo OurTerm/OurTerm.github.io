@@ -172,7 +172,7 @@ p.paragraph {
 	margin: 5px 0;
 	outline: none;
 	padding: 5px 15px;
-	width: 260px;
+	width: 35%;
 }
 .ctas-button {
 	background: #fff;
@@ -229,6 +229,16 @@ p.paragraph {
 		margin-top: 60px;
 	}
 	.header	.col-6 {
+		width: 100%;
+	}
+/* call to action */
+	.ctas-input {
+		display: inline-block;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.ctas-button {
+		display: block;
 		width: 100%;
 	}
 /* features */
