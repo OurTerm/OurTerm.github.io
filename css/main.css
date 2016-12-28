@@ -187,6 +187,7 @@ p.paragraph {
 	padding: 5px 30px;
 	text-decoration: none;
 	text-transform: uppercase;
+	width: 140px;
 }
 .socialproof {
 	padding: 90px 0;
@@ -203,8 +204,8 @@ p.paragraph {
 	padding: 90px 20px 90px 90px;
 }
 .feature .emoji {
-	font-size: 55px;
 	color: black
+	font-size: 55px;
 }
 /* END UNIVERSAL STYLES */
 
@@ -228,17 +229,7 @@ p.paragraph {
 	.header	.heading {
 		margin-top: 60px;
 	}
-	.header	.col-6 {
-		width: 100%;
-	}
-/* call to action */
-	.ctas-input {
-		display: inline-block;
-		margin-bottom: 5px;
-		width: 100%;
-	}
-	.ctas-button {
-		display: block;
+	.header	.col-8 {
 		width: 100%;
 	}
 /* features */
@@ -254,6 +245,17 @@ p.paragraph {
 }
 
 @media (max-width: 600px) {
+/* call to action */
+	.ctas-input {
+		display: inline-block;
+		margin-bottom: 5px;
+		text-align: center;
+		width: 100%;
+	}
+	.ctas-button {
+		display: block;
+		width: 100%;
+	}
 /* features */
 	.feature {
 		padding: 90px 0;
@@ -263,8 +265,8 @@ p.paragraph {
 	}
 	.feature	.col-6:nth-of-type(1),
 	.feature	.col-6:nth-of-type(2) {
-		padding: 0 20px;
 		border: none;
+		padding: 0 20px;
 		width: 100%;
 	}
 	.feature	.col-6:nth-of-type(2) {
@@ -278,7 +280,6 @@ p.paragraph {
 	.ctas-button {
 		display: block;
 		width: 100%;
-		text-align: center;
 	}
 	.ctas-button {
 		margin: 5px 0px;
